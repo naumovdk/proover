@@ -1,0 +1,8 @@
+doc a->b
+doc b->b
+(a->b)->(b->b)->(a|b->b)
+(b->b)->(a|b->b)
+a|b->b
+contr
+!b->!(a|b)
+!(a|b)
